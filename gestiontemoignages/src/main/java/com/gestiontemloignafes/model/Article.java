@@ -32,7 +32,6 @@ public class Article {
     private double prix;
     private boolean Livrable = false;
     private String statut;
-    private double prixvente;
 
 
     @JsonIgnoreProperties("article")
